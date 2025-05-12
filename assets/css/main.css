@@ -1374,7 +1374,8 @@ h1 {
 }
 
 #information-bar .inforation-wrapper {
-  background: #fff;
+  /*background: #fff;*/
+  background-image: linear-gradient(65deg, #1267bd 0, #FF809F 100%);
   border-radius: 4px;
   box-shadow: 0 8px 24px #E2E8ED;
   margin-bottom: -35px;
@@ -1409,6 +1410,7 @@ h1 {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 #information-bar ul li span b {
@@ -2029,7 +2031,15 @@ footer {
 .site-info a:hover {
   color: #ff4a67;
 }
+.site-info a.green-text {
+  color: #1dd171;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+.site-info a.green-text:hover {
+  color: #1dc2d1;
+}
 .social-icons-footer ul {
   margin: 0;
   padding: 0;
