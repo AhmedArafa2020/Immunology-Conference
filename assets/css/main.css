@@ -586,7 +586,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  /* background: #fff; */
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -598,7 +598,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
   /*//Here Edit NavBar*/
-  background: #ffffff !important;
+  background: #4284ba !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -2475,7 +2475,7 @@ footer {
 }
 /* Navbar Background & Scroll Behavior */
 .custom-navbar {
-  background-color: transparent;
+  background-color: #FF4D79;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   z-index: 1000;
 }
@@ -2502,4 +2502,15 @@ footer {
   .large-logo {
     max-height: 60px;
   }
+  .top-nav-collapse {
+    min-height: 50px;
+    background: #336699 !important; /* Darker/navier for mobile */
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+   .navbar {
+     background: #336699 !important; /* Darker blue for tablet */
+  }
+
+  
 }
